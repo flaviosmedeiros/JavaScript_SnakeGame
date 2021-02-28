@@ -1,0 +1,35 @@
+body{
+  background-image: url("../img/bg.jpg");
+}
+
+header{
+  text-align: center;
+  color: rgb(117, 0, 0);
+}
+
+.container {  
+  height: 100%vh;
+  width: 80%vh;
+  margin: 0 auto;  
+  display: flex;  
+}
+
+section.board{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+div.container-canvas{
+  width: 520px;
+  height: 520px;
+  background-color: #ddd;
+  border: 3px inset #aaa;
+  z-index: 10;
+}
+
+canvas.canvas{
+  z-index: 20;
+}
